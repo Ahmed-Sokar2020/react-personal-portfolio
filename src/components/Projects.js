@@ -1,13 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-import projImg7 from "../assets/img/angular.jpg";
 import projImg1 from "../assets/img/proj1.PNG";
 import projImg2 from "../assets/img/proj2.PNG";
 import projImg3 from "../assets/img/proj3.PNG";
 import projImg4 from "../assets/img/proj4.PNG";
 import projImg5 from "../assets/img/proj5.PNG";
-import projImg6 from "../assets/img/proj6.PNG";
+import projImg6 from "../assets/img/portfolio.PNG";
+import projImg7 from "../assets/img/angular.jpg";
+import projImg8 from "../assets/img/proj6.PNG";
 
 // import projImg1 from "../assets/img/project-img1.png";
 // import projImg2 from "../assets/img/project-img2.png";
@@ -58,9 +59,9 @@ export const Projects = () => {
         },
         {
         id: 6,
-        title: "Landing Page",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/Project-3-Sokar-Studio",
-        liveDemo: "https://ahmed-sokar2020.github.io/Project-3-Sokar-Studio",
+        title: "My Portfolio/React.js",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/personal-portfolio",
+        liveDemo: "https://ahmed-sokar2020.github.io/personal-portfolio",
         imgUrl: projImg6,
         },
     ];
@@ -72,7 +73,14 @@ export const Projects = () => {
         gitHupLink: "https://github.com/Ahmed-Sokar2020/My-First-Angular-Project",
         liveDemo: "https://ahmed-sokar2020.github.io/My-First-Angular-Project",
         imgUrl: projImg7,    
-        }
+        },
+        {
+        id: 8,
+        title: "Landing Page",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/Project-3-Sokar-Studio",
+        liveDemo: "https://ahmed-sokar2020.github.io/Project-3-Sokar-Studio",
+        imgUrl: projImg8,
+        },
     ]
 
 
