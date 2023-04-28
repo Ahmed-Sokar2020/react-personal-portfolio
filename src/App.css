@@ -149,7 +149,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 	font-weight: 400;
 	color: #fff !important;
 	letter-spacing: 0.8px;
-	padding: 0 25px;
+	padding: 10px 25px;
 	font-size: 18px;
 	opacity: 0.75;
 }
@@ -166,7 +166,8 @@ span.navbar-text {
 
 .social-icon {
 	display: inline-block;
-	margin-left: 14px;
+	margin-left: 20px;
+	margin-bottom: 15px;
 }
 
 .social-icon a {
@@ -697,7 +698,7 @@ width: 100%;
 	background: #ffffff;
 	border-radius: 55px;
 	color: #121212;
-	padding: 85px 125px;
+	padding: 85px;
 	margin-bottom: 80px;
 	margin-top: -122px;
 }
@@ -753,11 +754,11 @@ width: 100%;
 
 .new-email-bx button {
 	background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-	padding: 20px 65px;
+	padding: 20px;
 	color: #fff;
 	font-weight: 500;
 	letter-spacing: 0.5px;
-	border-radius: 18px;
+	border-radius: 15px;
 }
 
 

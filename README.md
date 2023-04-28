@@ -1,16 +1,16 @@
 # Personal Portfolio Website in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Responsive Portfolio Website built with React framework and deployed to gh-pages. 
 
-<img width="1266" alt="Screen Shot 2023-02-11" src="https://tinyurl.com/2mpypw6j">
+![The Project Image:](https://www.wordsuccor.com/wp-content/uploads/2018/03/Specific-Design-for-Your-Personal-Portfolio-min.jpg)
 
 Built using:
-
+- CSS
 - Front-end library: React
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+In the personal-portfolio, you can run:
 
 ### `npm start`
 

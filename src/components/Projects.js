@@ -5,10 +5,11 @@ import projImg1 from "../assets/img/proj1.PNG";
 import projImg2 from "../assets/img/proj2.PNG";
 import projImg3 from "../assets/img/proj3.PNG";
 import projImg4 from "../assets/img/proj4.PNG";
-import projImg5 from "../assets/img/proj5.PNG";
+import projImg5 from "../assets/img/react-cart.png";
 import projImg6 from "../assets/img/portfolio.PNG";
 import projImg7 from "../assets/img/angular.jpg";
 import projImg8 from "../assets/img/proj6.PNG";
+import projImg9 from "../assets/img/proj5.PNG";
 
 // import projImg1 from "../assets/img/project-img1.png";
 // import projImg2 from "../assets/img/project-img2.png";
@@ -38,7 +39,7 @@ export const Projects = () => {
         },
         {
         id: 3,
-        title: "Landing Page/Tailwindcss",
+        title: "Landing Page/TailwindCSS",
         gitHupLink: "https://github.com/Ahmed-Sokar2020/Tailwindcss-Project",
         liveDemo: "https://ahmed-sokar2020.github.io/Tailwindcss-Project",
         imgUrl: projImg3,
@@ -52,9 +53,9 @@ export const Projects = () => {
         },
         {
         id: 5,
-        title: "Landing Page",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/My-First-Tempelate",
-        liveDemo: "https://ahmed-sokar2020.github.io/My-First-Tempelate",
+        title: "React-TS-ShoppingCart",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/React-TS-ShoppingCart",
+        liveDemo: "https://ahmed-sokar2020.github.io/React-TS-ShoppingCart",
         imgUrl: projImg5,
         },
         {
@@ -81,6 +82,13 @@ export const Projects = () => {
         liveDemo: "https://ahmed-sokar2020.github.io/Project-3-Sokar-Studio",
         imgUrl: projImg8,
         },
+        {
+        id: 9,
+        title: "Landing Page",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/My-First-Tempelate",
+        liveDemo: "https://ahmed-sokar2020.github.io/My-First-Tempelate",
+        imgUrl: projImg9,
+        }
     ]
 
 
