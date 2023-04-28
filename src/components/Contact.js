@@ -58,7 +58,7 @@ export const Contact = () => {
                         </TrackVisibility>
                     </Col>
 
-                    <Col size={12} md={6}>
+                    <Col size={12} md={6} className="p-4">
                         <TrackVisibility>
                         {({ isVisible }) =>
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>

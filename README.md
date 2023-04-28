@@ -1,6 +1,6 @@
 # Personal Portfolio Website in React
 
-Responsive Portfolio Website built with React framework and deployed to gh-pages. 
+Responsive Personal Portfolio Website built with React framework and deployed to gh-pages. 
 
 ![The Project Image:](https://www.wordsuccor.com/wp-content/uploads/2018/03/Specific-Design-for-Your-Personal-Portfolio-min.jpg)
 

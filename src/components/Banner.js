@@ -74,7 +74,7 @@ export const Banner = () => {
 										</HashLink>
 
 										<button className="downloadBtn ms-4">
-											<a href='https://drive.google.com/file/d/1tx4nSLAeTkChyOLOmkDsB_1t_T708TEI/view?usp=share_link' 
+											<a href='https://drive.google.com/file/d/1ezDaHoXZeaZAPFpc6-glGjcjjkpEujlh/view?usp=share_link' 
 											target="_blank" 
 											rel="noreferrer"
 											>
