@@ -1,6 +1,6 @@
 {
   "homepage": "https://ahmed-sokar2020.github.io/personal-portfolio",
-  "name": "personal-portfolio",
+  "name": "react-personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
