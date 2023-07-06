@@ -41,8 +41,8 @@ export const Projects = () => {
         {
         id: 3,
         title: "React-Personal-Portfolio",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/personal-portfolio",
-        liveDemo: "https://ahmed-sokar2020.github.io/personal-portfolio",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/react-personal-portfolio",
+        liveDemo: "https://ahmed-sokar2020.github.io/react-personal-portfolio",
         imgUrl: projImg3,
         },
         {
