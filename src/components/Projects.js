@@ -1,15 +1,16 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-import projImg1 from "../assets/img/proj1.PNG";
-import projImg2 from "../assets/img/proj2.PNG";
-import projImg3 from "../assets/img/proj3.PNG";
-import projImg4 from "../assets/img/proj4.PNG";
-import projImg5 from "../assets/img/react-cart.png";
-import projImg6 from "../assets/img/portfolio.PNG";
+import projImg1 from "../assets/img/news.PNG";
+import projImg2 from "../assets/img/react-cart.png";
+import projImg3 from "../assets/img/portfolio.PNG";
+import projImg4 from "../assets/img/proj1.PNG";
+import projImg5 from "../assets/img/proj2.PNG";
+import projImg6 from "../assets/img/proj3.PNG";
 import projImg7 from "../assets/img/angular.jpg";
-import projImg8 from "../assets/img/proj6.PNG";
-import projImg9 from "../assets/img/proj5.PNG";
+import projImg8 from "../assets/img/proj4.PNG";
+import projImg9 from "../assets/img/proj6.PNG";
+import projImg10 from "../assets/img/proj5.PNG";
 
 // import projImg1 from "../assets/img/project-img1.png";
 // import projImg2 from "../assets/img/project-img2.png";
@@ -25,46 +26,47 @@ export const Projects = () => {
     const projects = [
         {
         id: 1,    
-        title: "Shopping_Cart_JS",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/Shopping_Cart_JS",
-        liveDemo: "https://ahmed-sokar2020.github.io/Shopping_Cart_JS",
+        title: "NextJS-News-App",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/nextjs-news-app",
+        liveDemo: "https://nextjs-news-app-lovat.vercel.app",
         imgUrl: projImg1,
         },
         {
-        id: 2,    
-        title: "Landing Page",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/Food-And-Restaurant-Landing-Page",
-        liveDemo: "https://ahmed-sokar2020.github.io/Food-And-Restaurant-Landing-Page/",
+        id: 2,
+        title: "React-TS-Shopping Cart",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/React-TS-ShoppingCart",
+        liveDemo: "https://ahmed-sokar2020.github.io/React-TS-ShoppingCart",
         imgUrl: projImg2,
         },
         {
         id: 3,
-        title: "Landing Page/TailwindCSS",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/Tailwindcss-Project",
-        liveDemo: "https://ahmed-sokar2020.github.io/Tailwindcss-Project",
+        title: "React-Personal-Portfolio",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/personal-portfolio",
+        liveDemo: "https://ahmed-sokar2020.github.io/personal-portfolio",
         imgUrl: projImg3,
         },
         {
-        id: 4,
-        title: "Landing Page",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/My-Second-Template",
-        liveDemo: "https://ahmed-sokar2020.github.io/My-Second-Template",
+        id: 4,    
+        title: "JS-Shopping Cart",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/Shopping_Cart_JS",
+        liveDemo: "https://ahmed-sokar2020.github.io/Shopping_Cart_JS",
         imgUrl: projImg4,
         },
         {
-        id: 5,
-        title: "React-TS-ShoppingCart",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/React-TS-ShoppingCart",
-        liveDemo: "https://ahmed-sokar2020.github.io/React-TS-ShoppingCart",
+        id: 5,    
+        title: "Landing Page",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/Food-And-Restaurant-Landing-Page",
+        liveDemo: "https://ahmed-sokar2020.github.io/Food-And-Restaurant-Landing-Page/",
         imgUrl: projImg5,
         },
         {
         id: 6,
-        title: "My Portfolio/React.js",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/personal-portfolio",
-        liveDemo: "https://ahmed-sokar2020.github.io/personal-portfolio",
+        title: "Landing Page/TailwindCSS",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/Tailwindcss-Project",
+        liveDemo: "https://ahmed-sokar2020.github.io/Tailwindcss-Project",
         imgUrl: projImg6,
-        },
+        }
+        
     ];
 
     const anotherProjects = [
@@ -78,16 +80,23 @@ export const Projects = () => {
         {
         id: 8,
         title: "Landing Page",
-        gitHupLink: "https://github.com/Ahmed-Sokar2020/Project-3-Sokar-Studio",
-        liveDemo: "https://ahmed-sokar2020.github.io/Project-3-Sokar-Studio",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/My-Second-Template",
+        liveDemo: "https://ahmed-sokar2020.github.io/My-Second-Template",
         imgUrl: projImg8,
         },
         {
         id: 9,
         title: "Landing Page",
+        gitHupLink: "https://github.com/Ahmed-Sokar2020/Project-3-Sokar-Studio",
+        liveDemo: "https://ahmed-sokar2020.github.io/Project-3-Sokar-Studio",
+        imgUrl: projImg9,
+        },
+        {
+        id: 10,
+        title: "Landing Page",
         gitHupLink: "https://github.com/Ahmed-Sokar2020/My-First-Tempelate",
         liveDemo: "https://ahmed-sokar2020.github.io/My-First-Tempelate",
-        imgUrl: projImg9,
+        imgUrl: projImg10,
         }
     ]
 
