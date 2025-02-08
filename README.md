@@ -11,7 +11,8 @@ Built using:
 - CSS animations library: Animate.css
 
 In the personal-portfolio, you can run:
-
+### `cd react-personal-portfolio`
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\

@@ -23,7 +23,7 @@ export const Banner = () => {
 		}, delta);
 
 		return () => { clearInterval(ticker) };
-	}, [text])
+	})
 
 	const tick = () => {
 		let i = loopNum % toRotate.length;
@@ -65,7 +65,10 @@ export const Banner = () => {
 									<h1>Hi, I'm Ahmed Sokar <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Frontend Developer ", "Software Engineer"]'><span className="wrap">{text}</span></span></h1>
 									
 									<p>
-										Frontend developer with 3 years of experience in building responsive websites and web applications with HTML, CSS, SASS, Bootstrap, JavaScript, ES6, and TypeScript, working with frameworks like React and Angular. Interested in both sides of a fantastic user interface and clean code with performance. Ambitious and maintaining up-to-date awareness of technological trends and technological advances.
+										Frontend developer with +3 years of experience in building responsive websites and web applications with 
+										HTML, CSS, SASS, Bootstrap, JavaScript, ES6, and TypeScript, working with frameworks like React and NextJS,
+										Interested in both sides of a fantastic user interface and clean code with performance, 
+										Ambitious and maintaining up-to-date awareness of technological trends and technological advances.
 									</p>
 
 									<div className="d-flex align-items-center ">
